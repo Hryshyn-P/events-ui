@@ -1,0 +1,38 @@
+.auth-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.login-button {
+  background-color: #1aa3ff;
+  color: #fff;
+}
+
+.register-button {
+  background-color: #267f14;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
